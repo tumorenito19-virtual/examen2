@@ -1,0 +1,35 @@
+{
+    "pending_tasks": [
+        {
+            "name": "Tarea 2",
+            "priority": 3,
+            "dependencies": [],
+            "due_date": "2024-12-20"
+        },
+        {
+            "name": "Tarea 4",
+            "priority": 5,
+            "dependencies": [
+                "Tarea 2",
+                "Tarea 3"
+            ],
+            "due_date": "2024-12-25"
+        }
+    ],
+    "completed_tasks": [
+        {
+            "name": "Tarea 3",
+            "priority": 2,
+            "dependencies": [],
+            "due_date": "2024-12-18"
+        },
+        {
+            "name": "Tarea 1",
+            "priority": 1,
+            "dependencies": [
+                "Tarea 3"
+            ],
+            "due_date": "2024-12-15"
+        }
+    ]
+}
